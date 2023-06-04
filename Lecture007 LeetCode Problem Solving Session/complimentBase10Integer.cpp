@@ -2,8 +2,7 @@ class Solution {
 public:
     int bitwiseComplement(int n) {
         
-        int m = n;
-        int mask = 0;
+        int m = n, mask = 0;
         
         if(n == 0)
             return 1;
